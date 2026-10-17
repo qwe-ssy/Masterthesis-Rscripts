@@ -10,9 +10,14 @@ To answer these questions, this repository contains the complete quantitative an
 
 ## Experimental Design
 A 2 (label congruency: incongruent vs. congruent) × 2 (nutrition literacy: low vs. high) × 2 (Nutri-Score intervention message: absent vs. present) between-subjects online experiment was conducted among 220 Dutch consumers, using an energy bar as the product stimulus. Based on the findings, this research proposes specific health intervention strategies tailored to diverse stakeholders, including policymakers, public health organizations, and food manufacturers.
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0ab21cb5-34f5-4cd4-af15-8c219b68b8d7" width="60%" />
+
+<p>
+  <img align="left" src="https://github.com/user-attachments/assets/0ab21cb5-34f5-4cd4-af15-8c219b68b8d7" width="48%" />
+  <img src="https://github.com/user-attachments/assets/6a067693-9f57-4e07-812d-529dd4b029f2" width="36%" />
+  <br><br>
+  <img src="https://github.com/user-attachments/assets/25c710f6-30cd-42bd-a59b-5965b5518296" width="36%" />
 </p>
+<br clear="all" />
 
 ## Key findings & Visualizations
 
@@ -21,7 +26,7 @@ A 2 (label congruency: incongruent vs. congruent) × 2 (nutrition literacy: low 
 *   **Programming & Analysis:** 
     ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white) 
     ![RStudio](https://img.shields.io/badge/RStudio-75AADB?style=flat-square&logo=RStudio&logoColor=white)
-*   **Core Packages:** `tidyverse` (Data wrangling), `ggplot2` (Data visualization), `afex` / `emmeans` (ANOVA & simple slopes)
+*   **Core Packages:** 
 *   **Methodology:** 2x2x2 Between-subjects Experimental Design, Moderation Analysis, Survey Design (Qualtrics)
 
 ## Repository Structure
