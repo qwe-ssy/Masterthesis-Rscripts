@@ -58,7 +58,7 @@ The quantitative data analysis for this 2x2x2 experiment follows a rigorous, ful
 *   Evaluating the internal consistency of the multi-item measurement scales.
 *   Calculating Cronbach's $\alpha$ for both Nutrition Literacy and Purchase Intentions to ensure measurement reliability.
 
-**4. Experimental Control & Randomization Checks**
+**4. Experimental Checks**
 *   **Attention Checks:** Identifying and filtering out inattentive respondents to ensure high data quality.
 *   **Manipulation Checks:** Verifying that participants accurately perceived the label congruency and understood the Nutri-Score interventions.
 *   **Randomization Checks:** Conducting ANOVA and Chi-square tests to confirm that demographics and baseline variables were evenly distributed across the 8 experimental conditions.
@@ -71,16 +71,16 @@ The quantitative data analysis for this 2x2x2 experiment follows a rigorous, ful
 ## Repository Structure
 ```text
 ├── data/
-│   ├── raw_data.csv               # Raw dataset exported from Qualtrics (anonymized)
-│   └── cleaned_data.csv           # Processed dataset ready for analysis
+│   ├── raw_data.csv                                # Raw dataset exported from Qualtrics (anonymized)
+│   └── cleaned_data.csv                            # Processed dataset ready for analysis
 ├── Rscripts/
-│   ├── 01_data_cleaning.R         # Data wrangling, reverse coding, and composite scores
-│   ├── 02_descriptives.R          # Demographic stats and baseline behavioral frequencies
-│   ├── 03_reliability.R           # Internal consistency and Cronbach's alpha calculation
-│   ├── 04_experimental_checks.R   # Attention, manipulation, and randomization checks
-│   └── 05_hypothesis_testing.R    # Main 2x2x2 ANOVA, effect sizes, and ggplot2 visuals
+│   ├── 01_data_cleaning_and_preprocessing.R        # Data cleaning, reverse coding, and composite scores
+│   ├── 02_descriptive_statistics.R                 # Demographic stats
+│   ├── 03_reliability_analysis.R                   # Internal consistency and Cronbach's alpha calculation
+│   ├── 04_experimental_checks.R                    # Attention, manipulation, and randomization checks
+│   └── 05_hypothesis_testing_and_visualization.R   # Main 2x2x2 ANOVA, effect sizes, and ggplot2 visuals
 ├── stimulus/
-│   ├── energybarA.png             # Product stimulus: Nutrition claim + Nutri-Score A
-│   └── energybarE.png             # Product stimulus: Nutrition claim + Nutri-Score E
+│   ├── energybarA.png                              # Product stimulus: Nutrition claim + Nutri-Score A
+│   └── energybarE.png                              # Product stimulus: Nutrition claim + Nutri-Score E
 └── README.md
 ```
