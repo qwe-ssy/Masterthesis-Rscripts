@@ -21,11 +21,17 @@ A 2 (label congruency: incongruent vs. congruent) × 2 (nutrition literacy: low 
 
 ## Key findings & Visualizations
 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/72f6a1db-d2bd-4917-80dd-0b0007cd2352" width="55%" alt="Interaction Plot for Mean Purchase Intentions" />
+</p>
+
 ## Tech Stack & Methodology
 
 *   **Programming & Analysis:** 
     ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white) 
     ![RStudio](https://img.shields.io/badge/RStudio-75AADB?style=flat-square&logo=RStudio&logoColor=white)
+    ![SPSS](https://img.shields.io/badge/IBM_SPSS_v30-052FAD?style=flat-square&logo=ibm&logoColor=white)
 *   **Core Packages:** 
 *   **Methodology:** 2x2x2 Between-subjects Experimental Design, Moderation Analysis, Survey Design (Qualtrics)
 
