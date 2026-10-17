@@ -8,7 +8,7 @@ To answer these questions, this repository contains the complete quantitative an
   <img src="https://github.com/user-attachments/assets/9ecceae6-e772-4105-8806-eef5de4bda0b" width="60%" />
 </p>
 
-
+## Experimental Design
 A 2 (label congruency: incongruent vs. congruent) × 2 (nutrition literacy: low vs. high) × 2 (Nutri-Score intervention message: absent vs. present) between-subjects online experiment was conducted among 220 Dutch consumers, using an energy bar as the product stimulus. Based on the findings, this research proposes specific health intervention strategies tailored to diverse stakeholders, including policymakers, public health organizations, and food manufacturers.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0ab21cb5-34f5-4cd4-af15-8c219b68b8d7" width="60%" />
@@ -16,7 +16,7 @@ A 2 (label congruency: incongruent vs. congruent) × 2 (nutrition literacy: low 
 
 ## Key findings & Visualizations
 
-## 🛠 Tech Stack & Methodology
+## Tech Stack & Methodology
 
 *   **Programming & Analysis:** 
     ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white) 
@@ -24,7 +24,7 @@ A 2 (label congruency: incongruent vs. congruent) × 2 (nutrition literacy: low 
 *   **Core Packages:** `tidyverse` (Data wrangling), `ggplot2` (Data visualization), `afex` / `emmeans` (ANOVA & simple slopes)
 *   **Methodology:** 2x2x2 Between-subjects Experimental Design, Moderation Analysis, Survey Design (Qualtrics)
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 ├── data/
@@ -37,6 +37,8 @@ A 2 (label congruency: incongruent vs. congruent) × 2 (nutrition literacy: low 
 ├── output/
 │   └── interaction_plot.png  # High-res ggplot2 visualizations
 └── README.md
+```
 
 ## Code
+
 The scripts in the `scripts` folder are structured modularly to represent the complete quantitative data analysis pipeline for this 2x2x2 experiment. All files are thoroughly commented to ensure full reproducibility and adherence to Open Science standards.
