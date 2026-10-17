@@ -69,16 +69,18 @@ The quantitative data analysis for this 2x2x2 experiment follows a rigorous, ful
 *   Generating publication-ready data visualizations (e.g., interaction plots with 95% Confidence Intervals) using `ggplot2`.
 
 ## Repository Structure
-
 ```text
 ├── data/
-│   ├── raw_data.csv          # Raw dataset exported from Qualtrics (anonymized)
-│   └── cleaned_data.csv      # Processed dataset ready for analysis
-├── scripts/
-│   ├── 01_data_cleaning.R    # Data wrangling, reverse coding, and attention checks
-│   ├── 02_descriptives.R     # Demographic stats and assumption testing
-│   └── 03_anova_moderation.R # Main 2x2x2 ANOVA and simple slopes analysis
-├── output/
-│   └── interaction_plot.png  # High-res ggplot2 visualizations
+│   ├── raw_data.csv               # Raw dataset exported from Qualtrics (anonymized)
+│   └── cleaned_data.csv           # Processed dataset ready for analysis
+├── Rscripts/
+│   ├── 01_data_cleaning.R         # Data wrangling, reverse coding, and composite scores
+│   ├── 02_descriptives.R          # Demographic stats and baseline behavioral frequencies
+│   ├── 03_reliability.R           # Internal consistency and Cronbach's alpha calculation
+│   ├── 04_experimental_checks.R   # Attention, manipulation, and randomization checks
+│   └── 05_hypothesis_testing.R    # Main 2x2x2 ANOVA, effect sizes, and ggplot2 visuals
+├── stimulus/
+│   ├── energybarA.png             # Product stimulus: Nutrition claim + Nutri-Score A
+│   └── energybarE.png             # Product stimulus: Nutrition claim + Nutri-Score E
 └── README.md
 ```
