@@ -39,34 +39,8 @@ Based on the 2x2x2 between-subjects online experiment (N=220), the quantitative 
     ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white) 
     ![RStudio](https://img.shields.io/badge/RStudio-75AADB?style=flat-square&logo=RStudio&logoColor=white)
     ![SPSS](https://img.shields.io/badge/IBM_SPSS_v30-052FAD?style=flat-square&logo=ibm&logoColor=white)
-*   **Core Packages:** 
+*   **Core Packages:** `tidyverse` (dplyr, ggplot2)
 *   **Methodology:** 2x2x2 Between-subjects Experimental Design, Moderation Analysis, Survey Design (Qualtrics)
-
-## Rscripts
-The quantitative data analysis for this 2x2x2 experiment follows a rigorous, fully reproducible 5-step workflow in R. All scripts are documented to adhere to Open Science standards.
-
-**1. Data Cleaning & Preprocessing**
-*   Ingesting the raw Qualtrics dataset and filtering out incomplete responses.
-*   Reverse-coding negatively worded items (e.g., within the purchase intention scale).
-*   Computing composite scores based on median splits for variables such as Nutrition Literacy.
-
-**2. Descriptive Statistics**
-*   Generating demographic summaries (e.g., age, gender, education level) to profile the sample.
-*   Exploring baseline behavioral frequencies (e.g., frequency of purchasing packaged foods).
-
-**3. Reliability Analysis**
-*   Evaluating the internal consistency of the multi-item measurement scales.
-*   Calculating Cronbach's $\alpha$ for both Nutrition Literacy and Purchase Intentions to ensure measurement reliability.
-
-**4. Experimental Checks**
-*   **Attention Checks:** Identifying and filtering out inattentive respondents to ensure high data quality.
-*   **Manipulation Checks:** Verifying that participants accurately perceived the label congruency and understood the Nutri-Score interventions.
-*   **Randomization Checks:** Conducting ANOVA and Chi-square tests to confirm that demographics and baseline variables were evenly distributed across the 8 experimental conditions.
-
-**5. Hypothesis Testing & Visualization**
-*   Executing the core 2x2x2 three-way ANOVA to evaluate the main effects and moderating roles.
-*   Extracting model statistics, p-values, and effect sizes (partial $\eta^2$).
-*   Generating publication-ready data visualizations (e.g., interaction plots with 95% Confidence Intervals) using `ggplot2`.
 
 ## Repository Structure
 ```text
